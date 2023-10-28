@@ -13,8 +13,7 @@ const Login = () => {
           <input type='text' placeholder='username' />
           <input type='password' placeholder='password' />
           <button className='butin'>Login</button>
-          <Link to={'register'} className='register mt-3'>
-            {' '}
+          <Link to={'register'} className='reg mt-3'>
             Register now
           </Link>
         </form>

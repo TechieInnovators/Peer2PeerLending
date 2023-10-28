@@ -1,13 +1,13 @@
-.login {
+.register {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 110vh;
   background: #130a1c;
 }
 
-form {
+.reg-form {
   display: flex;
   flex-direction: column;
 }
@@ -15,11 +15,6 @@ form {
 .logo {
   width: 178px;
   height: 156px;
-}
-
-form > h1 {
-  color: white;
-  text-align: center;
 }
 
 input {
@@ -49,8 +44,12 @@ input {
   margin: auto;
 }
 
-.reg {
+.log {
   color: white;
   text-decoration: none;
+}
+
+.instruction {
+  color: white;
   margin: auto;
 }
