@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Peer2PeerLending/static/css/main.a100133d.css",
+    "main.js": "/Peer2PeerLending/static/js/main.1b77731f.js",
+    "static/js/787.8ed97ec9.chunk.js": "/Peer2PeerLending/static/js/787.8ed97ec9.chunk.js",
+    "index.html": "/Peer2PeerLending/index.html",
+    "main.a100133d.css.map": "/Peer2PeerLending/static/css/main.a100133d.css.map",
+    "main.1b77731f.js.map": "/Peer2PeerLending/static/js/main.1b77731f.js.map",
+    "787.8ed97ec9.chunk.js.map": "/Peer2PeerLending/static/js/787.8ed97ec9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a100133d.css",
+    "static/js/main.1b77731f.js"
+  ]
+}
