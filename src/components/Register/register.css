@@ -1,25 +1,28 @@
 .register {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 110vh;
-  background: #130a1c;
+  background-color: #130a1c;
 }
 
 .reg-form {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  justify-content: center;
+}
+
+.reg-form > h1 {
+  text-align: center;
 }
 
 .logo {
+  margin: auto;
+
   width: 178px;
   height: 156px;
+  display: flex;
+  justify-content: center;
 }
 
 input {
   background: #6a2889;
-  width: 300px;
+  width: 400px;
   height: 54px;
   border-radius: 20px;
   outline: none;
@@ -45,11 +48,58 @@ input {
 }
 
 .log {
-  color: white;
+  color: #d3a4e9;
   text-decoration: none;
 }
 
 .instruction {
   color: white;
   margin: auto;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.instrut {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  width: 400px;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.form-item {
+  display: grid;
+}
+
+.form-item > label {
+  margin-bottom: 10px;
+  color: #fff;
 }

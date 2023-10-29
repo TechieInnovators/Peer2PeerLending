@@ -1,25 +1,16 @@
 .login {
+  height: 100vh;
+  background-color: #130a1c;
+}
+
+.login-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: #130a1c;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo {
-  width: 178px;
-  height: 156px;
 }
 
 form > h1 {
   color: white;
-  text-align: center;
 }
 
 input {
@@ -50,7 +41,7 @@ input {
 }
 
 .reg {
-  color: white;
+  color: #d3a4e9;
   text-decoration: none;
   margin: auto;
 }

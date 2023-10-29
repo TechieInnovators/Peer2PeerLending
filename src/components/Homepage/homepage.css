@@ -1,0 +1,39 @@
+.homepage {
+  height: 90vh;
+  background-color: #130a1c;
+}
+
+.cartoon {
+  width: 450px;
+  height: 420px;
+  background-color: #130a1c;
+}
+
+.info {
+  position: absolute;
+  top: 40%;
+  transform: translate(0, 40%);
+  width: 40%;
+  color: white;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.reg-btn {
+  background: #321e46;
+  padding: 20px;
+  width: 50%;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+}
+
+.reg-btn:hover {
+  transform: scale(0.9);
+}
+
+.reg-link {
+  color: white;
+  text-decoration: none;
+}
